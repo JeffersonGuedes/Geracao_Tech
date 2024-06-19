@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aquamarine;
+    color: rgb(51, 11, 88)
+}
+.btn-primary{
+    background-color: blueviolet;
+}
