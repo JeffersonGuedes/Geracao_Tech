@@ -1,11 +1,214 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DCOTYPE html>
+    <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale: 1.0">
-        <title>Meu primeiro Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apland</title>
+        <!-- CSS - Customizado -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon/logo.png">
     </head>
+
     <body>
-        <h1>Hello, World</h1>
+        <div class="container">
+            <!-- nav: Barra de navegação -->
+            <nav>
+                <div class="logonav">
+                    <img src="./assets/img/logo_aplan_nav.png" alt="logo">
+                </div>
+                <div class="navegacao">
+                    <div class="home">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                    </div>
+                    <div class="features">
+                        <li>
+                            <a href="#feature">Features</a>
+                        </li>
+                    </div>
+                    <div class="pages">
+                        <li>
+                            <a href="#pages">Pages</a>
+                        </li>
+                    </div>
+                    <div class="download">
+                        <li>
+                            <a href="#info">Download</a>
+                        </li>
+                    </div>
+                    <div class="blog">
+                        <li>
+                            <a href="#blog">Blog</a>
+                        </li>
+                    </div>
+                    <div class="contact">
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </div>
+                    <div class="buttonnav">
+                        <button type="button"><a href="#">Sing up</a></button>
+                    </div>
+                </div>
+
+            </nav>
+            <!-- /nav: Barra de navegação -->
+
+            <!-- section/header: home -->
+            <section id="home">
+                <header>
+                    <div class="texto">
+                        <h6>New updated version 5.1.2</h6>
+                        <h1>A creative landing<br>
+                            page for your<br>
+                            creative <span>website!</span>
+                        </h1>
+                        <p>Apland is a completely
+                            <span>creative, lightweight, clean & super<br> responsive</span>
+                            app landing page. It's built with the latest<br> technology & comes with
+                            <span>dark mode.</span>
+                        </p>
+                        <button type="button"><a href="#">Buy A License</a></button>
+                    </div>
+
+                    <div class="apresentacao">
+                        <img class="img1" src="./assets/img/img1.png">
+                        <img class="img2" src="./assets/img/img2.png">
+                        <img class="img3" src="./assets/img/img3.png">
+                        <video class="video" poster="./assets/img/logo_fundo_branco.png" controls>
+                            <source src="./assets/video/video.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                </header>
+                <hr>
+            </section>
+            <!-- /section/header: home -->
+
+            <!--  section/#features -->
+            <section id="feature">
+                <div class="feature1">
+                    <div class="titulo">
+                        <button type="button">Why Buy It?</button>
+                        <h2>Key Features</h2>
+                        <hr>
+                    </div>
+                    <div class="features">
+                        <div class="bootstrap">
+                            <img src="./assets/img/bootstrap.png">
+                            <h3>Bootstrap 5.0.2</h3>
+                            <p>We've used the latest bootstrap to<br>
+                                create fast, reponsive sites.</p>
+                        </div>
+                        <div class="npm">
+                            <img src="./assets/img/npm.png">
+                            <h3>NPM</h3>
+                            <p>We've used npm for easily manage and<br>
+                                update ail assets.</p>
+                        </div>
+                        <div class="gulp">
+                            <img src="./assets/img/gulp.png">
+                            <h3>Gulp 4</h3>
+                            <p>A toolkit to automate & enhance your<br>
+                                workflow</p>
+                        </div>
+                        <div class="pug">
+                            <img src="./assets/img/pug.png">
+                            <h3>PUG</h3>
+                            <p>Pug is a JavaScript compiler for<br>
+                                creating automatic HTML code.</p>
+                        </div>
+                        <div class="darkMode">
+                            <img src="./assets/img/darkmode.png">
+                            <h3>Dark mode</h3>
+                            <p>Dark mode now available for better<br>
+                                user experience.</p>
+                        </div>
+                        <div class="sass">
+                            <img src="./assets/img/sass.png">
+                            <h3>SASS</h3>
+                            <p>Sass is a preprocessor scripting<br>
+                                language that is compiled into CSS.</p>
+                        </div>
+                        <div class="modernDesign">
+                            <img src="./assets/img/moderndesign.png">
+                            <h3>Modern design</h3>
+                            <p>Designed and built following the latest<br>
+                                trends in the user interface.</p>
+                        </div>
+                        <div class="fastLoading">
+                            <img src="./assets/img/fastloading.png">
+                            <h3>Fast loading</h3>
+                            <p>This template loads very faster.Coded<br>
+                                in such a way that it loads quickly.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  /section/#features -->
+
+            <!-- section/#info -->
+            <section id="info">
+                <div class="info">
+                    <h2>More than 680+ websites have been<br>
+                        created by the Apland. You can buy it<br>
+                        with confidence.</h2>
+                    <button type="button"><a href="#">Purchased Now</a></button>
+                </div>
+            </section>
+            <!-- /section/#info -->
+
+            <!-- section/#contact -->
+            <section id=contact>
+                <div class="contatos">
+                    <div class="sobre">
+                        <h3>About</h3>
+                        <p>Apland is a completely creative,<br>
+                            lightweight, clean & super<br>
+                            responsive app landing page. Put<br>
+                            your app sales or promotions into<br>
+                            next level with it.</p>
+                        <h3>Our office</h3>
+                        <p>Designing World<br>
+                            Dhaka, Bangladesh<br>
+                            (+880) 123456 789</p>
+                    </div>
+                    <div class="link">
+                        <h3>Important Links</h3>
+                        <a href="#">Help</a>
+                        <a href="#">Support</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Term & conditions</a>
+                        <a href="#">Call Center</a>
+                        <a href="#">Email Us</a>
+                        <a href="#">Term & conditions</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                    <div class="apps">
+                        <h3>Download Our App</h3>
+                        <a href="#" class="app"><img src="./assets/img/googleplay.png" alt=""></a>
+                        <a href="#" class="app"><img src="./assets/img/appstore.png" alt=""></a>
+                        <h3>Newsletter</h3>
+                        <input type="email" placeholder="Your Email">
+                        <button type="button"><a href="#">Subscribe</a></button>
+                    </div>
+                </div>
+            </section>
+            <!-- section/#contact -->
+
+            <!-- footer -->
+            <footer>
+                <p>Copyright© 2024 | Jefferson Guedes</p>
+                <div class="redesSociais">
+                    <a href="https://www.facebook.com/"><img src="./assets/img/facebook.png" alt="facebook"></a>
+                    <a href="https://x.com/"><img src="./assets/img/x.png" alt="x"></a>
+                    <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="instagram"></a>
+                </div>
+            </footer>
+            <!-- /footer -->
+        </div>
     </body>
-</html>
+
+    </html>
